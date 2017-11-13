@@ -8,7 +8,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Wade Mealing");
-MODULE_DESCRIPTION("Disable SMEP");
+MODULE_DESCRIPTION("Disable SMAP");
 
 static long cr4_prev, cr4_next;
 
@@ -16,7 +16,7 @@ static long cr4_prev, cr4_next;
 static int __init skeleton_init(void) {
 
   
-  printk (KERN_INFO "Your systems SMEP will be disabled!!");
+  printk (KERN_INFO "Your systems SMAP will be disabled!!");
   
   cr4_prev = __read_cr4();
 

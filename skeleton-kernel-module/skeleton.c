@@ -6,7 +6,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Wade Mealing");
-MODULE_DESCRIPTION("Just a test, nothing serious, just for fun!");
+MODULE_DESCRIPTION ("Just a test, nothing serious, just for fun!");
 
 static ssize_t target_read_write(struct file *f, const char __user *buf,
 		size_t count, loff_t *off)
